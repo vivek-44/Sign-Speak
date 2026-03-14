@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/ISLTOSPEECH/dataset/images/train
+val: /content/drive/MyDrive/ISLTOSPEECH/dataset/images/valid
+test: /content/drive/MyDrive/ISLTOSPEECH/dataset/images/test
+
+nc: 18
+names: ['I', 'apple', 'can', 'get', 'good', 'have', 'help', 'how', 'like', 'love', 'my', 'no', 'sorry', 'thank-you', 'want', 'yes', 'you', 'your']
+
+roboflow:
+  workspace: asl-tsfm8
+  project: isl-hand-recognition-nmbon
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/asl-tsfm8/isl-hand-recognition-nmbon/dataset/2
