@@ -1,0 +1,21 @@
+## requirements.txt
+
+# Core dependencies for computer vision and sign language detection
+opencv-python
+numpy
+mediapipe
+keras
+tensorflow
+ultralytics
+
+# Libraries for GUI and image handling
+Pillow
+tk
+
+# Libraries for translation and text-to-speech
+googletrans==4.0.0-rc1 # Specific version for stability
+gTTS
+playsound==1.2.2
+
+# HTTP client library used by googletrans
+httpx
